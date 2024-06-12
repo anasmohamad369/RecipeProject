@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+}
+.form{
+    background-color: rgb(215, 207, 207);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.rightside{
+  width: 50%;
+}
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-size: 90px;
+    color: #f1f1f1;
+}
+
+.log{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 50px
+}
+.log input{
+    outline: none;
+    border: none;
+}
+
+.logname{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.btnn{
+  font-size: large;
+  margin: 10px;
+  border: 2px solid #0f172a;
+  box-shadow: 2px 2px 0 0 white;
+  box-shadow: 4px 4px 0 0 #0f172a;
+      height: 40px;
+      cursor: pointer;
+
+}
+.btnn:hover{
+  box-shadow: 3px 3px 0 0 white;
+box-shadow: 6px 6px 0 0 #0f172a;
+transform: translate(-2px,-2px);
+
+}
+ .st2{
+  font-size: large;
+  outline: none;
+  border: none;
+  border:0;
+  border-bottom:3px solid #f3f3f3;  
+  background:transparent;
+  /* width:150%; */
+  padding:8px 0 5px 0;
+  font-size:20px;
+ }
+ .subright label{
+  color: #ffffff;
+ }
+
+ .sub1{
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+ }
+
+.sub1 h1{
+  color: #000000;
+  font-size: 50px;
+}
+ .sub1 a{
+  text-decoration: none;
+  color: #0c0c0c;
+ }
+ .sub1 a:hover{
+  text-decoration: none;
+  color: #0c0c0c;
+  font-size: 30px;
+ }
+ .sub1 p{
+  color: #000000da;
+ }
+ .sub1 a{
+  color: #121010c5;
+ }
+
+ 
+ 
+  .img1{
+    height: 100%;
+    width: 100%;
+    background-color: #82c136;
+  background-image: url("..\public\side25.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center ; */
+  }
+  .sub2 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    /* justify-content: center; */
+    width: 100%;
+    color: #000000;
+
+  }
+  .sub2 p{
+    color: #130d0d;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+  }
+
+  .comment{
+    display: flex;
+    color:  #0c0c0c ;
+    font-size: 20px;
+  }
+  .subright{
+   /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+   justify-content:center;
+    gap: 5PX;
+  
+   }
+   .st1{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid #555;
+    background: transparent;
+  }
+  .st1:focus{
+    background-color: lightblue;
+  }
+  .logname label{
+    color: #ffffff;
+  }
+
+ .form1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%  ; */
+  border: none;
+  /* border-bottom: 2px solid red; */
+
+}
+ .IMG{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+ }
+ .logo{
+  width: 50%;
+height: 100%;
+background-image: url("../public/WAJAB.png");
+background-size: cover;
+background-position: 50%;
+}
+ .mainuser a{
+  text-decoration: none;
+  color: #82c136;
+  font-size: 20px;
+ }
+ .mainuser p{
+  /* text-decoration: underline; */
+  color: #c2c1be;
+  font-size: 15px;
+ }
+ .mainuser a:hover{
+  text-decoration: none;
+  color: #98e040cf;
+  font-size: 25px;
+ }
+ 
+.mainuser{
+
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+ .sigform{
+  width: 100%;
+    /* height: 100%; */
+    display: flex;
+ }
+ .left{
+    height: 100vh;
+    display: flex;
+    width: 50%;
+ }
+ .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 15px; */
+  background-color: #bac562;
+  width: 50%;
+ }
+ 
+ .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 98, 0);
+ }
+ .button{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .button span {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000000;
+    transition: all ease .6s;
+  }
+  
+  .button:hover{
+    color: #fff;
+  }
+  
+  .button:hover:after{
+    width: 100%;
+  }
+  .btnn {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+
+  @media screen and (max-width:1200px) {
+    .welcome{
+      font-size: 40px;
+    }
+    .user{
+      font-size: large;
+    }
+  }
+  
+  @media screen and (max-width:981px) {
+    p.user{
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:871px) {
+    .log{
+      display: flex;
+      flex-direction: column;
+    }
+    .logoimgg{
+        height: 300px;
+        width: 300px;
+    }
+    .logo{
+      width: 50%;
+    height: 20%;
+    background-image: url("../public/WAJAB.png");
+    /* background-size: cover; */
+    /* background-position: 50%; */
+    border-radius: 20px;
+    flex-wrap: wrap;
+
+    }
+  }
+
+
+
+  @media screen and (max-width:600px) {
+    .welcome{
+      font-size: 30px;
+    }
+  }
+
+@media screen and (max-width:520px) {
+  .left{
+    display: none;
+  }
+  .right{
+    height: 100vh;
+    width: 100%;
+  }
+  
+}
+@media screen and (max-width:450px) {
+  .welcome{
+    font-size: 20px;
+  }
+  .st1{
+    width:50%;
+  }
+}
+@media screen and (max-width:440px) {
+  p.user{
+    font-size:10px;
+  }
+}
+@media screen and (max-width:300px) {
+  p.user{
+    font-size:8px;
+  }
+  .welcome{
+    font-size: 10px;
+  }
+}

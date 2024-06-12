@@ -1,0 +1,72 @@
+body {
+  font-family: "Platypi", serif;
+  }
+
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #000000;
+    position: relative;
+   display: flex;
+   justify-content: space-between
+   /* align-items: center;   */
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  .divnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+     font-size: 25px;
+    /* font-size: large;
+    display: flex;
+    align-items: center;
+    text-decoration: none;  */
+
+  }
+  .divnav a:hover {
+   
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background-color: rgba(14, 79, 152, 0.959);
+    transition: 0.5s ease-in;
+    /* height: 20px; */
+    height: auto;
+    border-radius: 10px;
+    color: black;
+
+  }
+  
+  .toogle {
+    margin: 30px;
+    color: rgb(7, 138, 253);
+    background-color: transparent;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: none;
+
+  }
+  .toogle:hover{
+    box-shadow: 3px 3px 0 0 white;
+    box-shadow: 6px 6px 0 0 #0f172a;
+    transform: translate(-2px,-2px);
+  }
+  
+  /* .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   */
+  .active img {
+    border-radius: 50%;
+  
+  }
+

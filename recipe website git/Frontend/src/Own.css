@@ -1,0 +1,145 @@
+
+.srch{
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 50px 20px;
+    color: azure;
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #22a6b3;
+    padding-right: 40px;
+    color:#fff;
+}
+.srch::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .searchButton{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .searchButton:focus ~ .srch{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
+  .srch:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .searchbox{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    display: flex;
+  }
+  .card{
+    border-radius: 15px;
+  }
+  .recipeeimg{
+    height: 150px;
+    width: 230px;
+  }
+.card__bottom__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #333;
+}
+.card__icon__one h2{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.viewer {
+  cursor: pointer;
+  font-weight: 100;
+  font-family: Helvetica,"sans-serif";
+  transition: all .2s;
+  /* padding: 5px 20px; */
+  border-radius: 100px;
+  background: #ffffff;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+.viewer a{
+  text-decoration: none;
+  font-size: large;
+  color: #ffffff;
+}
+.viewer:hover {
+  background: #000000;
+}
+
+.viewer > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+}
+.viewer:hover svg{
+  color: #fffcfc;
+}
+.viewer:hover svg {
+  transform: translateX(5px);
+}
+
+.viewer:active {
+  transform: scale(0.95);
+}
+
+ .card:hover{
+  transform: scale(1.1,1.1)
+}
+.ddelete{
+  width: 250px;
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: darkblue; */
+}
+.delete{
+  font-size: large;
+  margin: 10px;
+  border: 2px solid #0f172a;
+  box-shadow: 2px 2px 0 0 white;
+  /* box-shadow: 4px 4px 0 0 #0f172a; */
+      height: 40px;
+      cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border-radius: 20PX;
+    
+}
+.delete:hover{
+  background-color: #fff;
+  color: black;
+    
+}
